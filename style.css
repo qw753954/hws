@@ -128,7 +128,6 @@
         border-collapse: collapse;
         border-spacing: 0;
     }
-    /* ─=≡Σ((( つ•̀ω•́)つ 偶 4 分 隔 線 ! ! ! ! ! ! */
     
     img {
         max-width: 100%;
@@ -141,6 +140,7 @@
         cursor: pointer;
         font-family: "Noto Sans TC", sans-serif;
     }
+    /* ─=≡Σ((( つ•̀ω•́)つ 偶 4 分 隔 線 ! ! ! ! ! ! */
     
     .container {
         max-width: 940px;
@@ -222,10 +222,9 @@
     }
     
     .menu h3 {
-        color: #EAF0ED;
         padding: 16px 0;
+        color: #EAF0ED;
         background-color: #3f5d45;
-        border: 1px #eaf0ed solid;
     }
     
     .menu-list a {
@@ -289,7 +288,7 @@
         width: 100%;
         color: #3f5d45;
         font-size: 24px;
-        font-weight: 700;
+        font-weight: 500;
         text-align: center;
         padding: 16px 0;
         background-color: #eaf0ed;
@@ -487,7 +486,12 @@
     }
     
     .social-web img {
-        width: 42px;
+        width: 32px;
+    }
+    
+    .social-web img:hover {
+        transform: translateY(-4px);
+        transition: .4s;
     }
     
     .social-web li+li {
@@ -501,7 +505,7 @@
     
     @media(max-width: 1024px) {
         .container {
-            max-width: 769px;
+            padding: 0 40px;
         }
         .wrap {
             padding: 0 40px;
@@ -509,6 +513,9 @@
     }
     
     @media(max-width: 768px) {
+        .container {
+            padding: 0;
+        }
         .header {
             margin: 30px 0;
             padding: 0 10%;
@@ -571,7 +578,7 @@
         }
     }
     
-    @media(max-width: 584px) {
+    @media(max-width: 578px) {
         .product-item {
             width: 70%;
         }
