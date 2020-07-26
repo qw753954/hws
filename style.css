@@ -436,9 +436,9 @@
     }
     
     .footer {
-        background-color: #EAF0ED;
-        color: #3F5D45;
         padding: 30px 0;
+        color: #3F5D45;
+        background-color: #EAF0ED;
     }
     
     .fo-top {
