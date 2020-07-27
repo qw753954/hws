@@ -321,7 +321,7 @@
         top: 20px;
         right: 22px;
     }
-    /* ─=≡ page ≡=─ */
+    /* page */
     
     .page {
         display: flex;
@@ -360,7 +360,7 @@
         background-color: #eaf0ed;
         transition: 0.2s;
     }
-    /* ─=≡ footer ≡=─ */
+    /* footer */
     
     .subscribe {
         background-color: #3F5D45;
@@ -499,7 +499,7 @@
     .fo-bottom p {
         font-weight: 300;
     }
-    /* ─=≡ RWD ≡=─ */
+    /* RWD */
     
     @media(max-width: 1024px) {
         .wrap {
