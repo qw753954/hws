@@ -141,7 +141,7 @@
         cursor: pointer;
         font-family: "Noto Sans TC", sans-serif;
     }
-    /* ─=≡Σ((( つ•̀ω•́)つ 偶 4 分 隔 線 ! ! ! ! ! ! */
+    /* ────────────────────────────────────────────── */
     
     .container {
         max-width: 940px;
@@ -215,13 +215,13 @@
     
     .menu {
         width: 32%;
-        font-size: 24px;
         line-height: 35px;
         text-align: center;
     }
     
     .menu h3 {
         padding: 16px 0;
+        font-size: 24px;
         color: #EAF0ED;
         background-color: #3f5d45;
     }
@@ -229,6 +229,7 @@
     .menu-list a {
         display: block;
         padding: 16px 0;
+        font-size: 22px;
         color: #3f5d45;
         text-decoration: none;
         border-right: 1px #eaf0ed solid;
@@ -271,7 +272,7 @@
     .product-intro .name,
     .product-intro .price {
         width: 50%;
-        padding: 14px 0;
+        padding: 20px 0;
     }
     
     .product-intro .name {
@@ -286,7 +287,7 @@
     .add {
         width: 100%;
         color: #3f5d45;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 500;
         text-align: center;
         padding: 16px 0;
@@ -321,7 +322,7 @@
         top: 20px;
         right: 22px;
     }
-    /* page */
+    /* ─────────────────── page ───────────────────── */
     
     .page {
         display: flex;
@@ -331,7 +332,7 @@
     
     .page-list {
         display: flex;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 300;
         background-color: #fff;
         border-top: 1px solid #eaf0ed;
@@ -360,7 +361,7 @@
         background-color: #eaf0ed;
         transition: 0.2s;
     }
-    /* footer */
+    /* ─────────────────── footer ───────────────────── */
     
     .subscribe {
         background-color: #3F5D45;
@@ -394,11 +395,11 @@
         width: 40px;
     }
     
-    .mail-form {
+    .sub-form {
         display: flex;
     }
     
-    .mail-form input {
+    .sub-form input {
         border: none;
         max-width: 300px;
         padding: 15px 20px 15px 55px;
@@ -406,22 +407,22 @@
         background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/mail-24px.png?raw=true) no-repeat #EAF0ED 20px 50%;
     }
     
-    .mail-form button {
+    .sub-form button {
         padding: 18px 22px;
         background-color: #FFE180;
     }
     
-    .mail-form input:focus,
-    .mail-form button:focus {
+    .sub-form input:focus,
+    .sub-form button:focus {
         outline: none;
     }
     
-    .mail-form input:focus {
+    .sub-form input:focus {
         background-color: rgb(234, 240, 237, .8);
     }
     
-    .mail-form button:hover img {
-        animation: run .7s infinite alternate linear;
+    .sub-form button:hover img {
+        animation: run .6s infinite alternate linear;
     }
     
     @keyframes run {
@@ -429,7 +430,7 @@
             transform: translateX(0);
         }
         100% {
-            transform: translateX(8px);
+            transform: translateX(10px);
         }
     }
     
@@ -499,7 +500,7 @@
     .fo-bottom p {
         font-weight: 300;
     }
-    /* RWD */
+    /* ─────────────────── RWD ───────────────────── */
     
     @media(max-width: 1024px) {
         .wrap {
@@ -534,6 +535,13 @@
         .menu,
         .product {
             width: 100%;
+        }
+        .menu-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .menu-list li {
+            width: 50%;
         }
         .product {
             margin-top: 30px;
@@ -571,6 +579,9 @@
     }
     
     @media(max-width: 578px) {
+        .menu-list li {
+            width: 100%;
+        }
         .product-item {
             width: 70%;
         }
