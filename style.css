@@ -265,7 +265,7 @@
     
     .product-intro {
         display: flex;
-        font-size: 20px;
+        font-size: 19px;
         text-align: center;
     }
     
@@ -577,6 +577,7 @@
             margin: 38px 0 24px;
         }
     }
+    /* ↑ ipad */
     
     @media(max-width: 578px) {
         .menu-list li {
@@ -589,3 +590,4 @@
             width: 100%;
         }
     }
+    /* ↑ iphone */
